@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Abuse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <style>
+        body {
+            background-color: rgb(247, 242, 242);
+        }
+
+        .line {
+            display: flex;
+            margin-left: 200px;
+
+            /* padding-top: 50px; */
+
+        }
+
+        #heading {
+            padding-top: 150px;
+        }
+
+        #upline {
+            padding-top: 10px;
+            padding-right: 200px;
+        }
+
+        #downline {
+            padding-top: 10px;
+            padding-right: 200px;
+        }
+
+        .accordion-item {
+            border: 1px solid grey;
+            /* margin: 5px; */
+        }
+
+        button:hover {
+            background-color: rgb(247, 247, 169);
+        }
+
+        #accordionFlushExample {
+            /* display: flex; */
+            border: 1px solid grey;
+            margin: 10px 200px;
+        }
+
+        .getstr{
+            margin-top: 60px;
+            margin-left: 880px;
+           
+            /* padding-left: 100px; */
+            background-color: white;
+            padding: 10px 30px;
+            border: 1px solid grey;
+            border-radius: 6px;
+        }
+        .getstr:hover{
+            border: 1px solid black;
+            background-color: whitesmoke;
+           
+        }
+
+        .bottomtext{
+            margin-top: 50px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+
+        .accordion-body{
+            border: 23px solid rgb(199, 199, 199);
+        }
+
+        .form-check{
+            margin-left: 0px;
+            font-weight: bold;
+            /* margin-top: 30px; */
+        }
+
+        .form-check-label{
+            margin-top: 20px;
+        }
+
+        .form-check-input{
+            margin-top: 25px;
+            margin-left: 0px;
+        }
+
+        .fw-bold{
+            color: green;
+            font-size: 20px;
+            font-weight:500;
+        }
+        
+        .grey{
+            color: grey;
+            font-size: 15px;
+        }
+
+        .text{
+            margin-top: 17px;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h2 class="line" id="heading">PLEASE SELECT AN OPTION TO BEGIN.</h2>
+
+    <div class="line" id="upline">
+        <p> If you would like to report internet abuse to Artbeat, select an option below to begin your report. Please
+            provide the required details so that our team can research your complaint. </p>
+    </div>
+
+    <div class="line" id="downline">
+        <p> If you submitted a report via email and were directed to this form, your submission is not complete. In
+            order for us to successfully process your inquiry, you must complete the form below and provide the required
+            details. </p>
+    </div>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Inappropriate Content
+                    <!-- <div class="intext">
+                        <p>You wish to report violent, disturbing or inappropriate content</p>
+                    </div> -->
+                  
+                </button>
+            </h2>
+
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+                    <!-- Form1  -->
+
+                    <div class="form-check">
+                        <H6> Please select the option that best describes what you would like to report. </H6>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            I have found material on a site that promotes, encourages or engages in child exploitation
+                            or abuse of children
+                        </label>
+                    </div>
+    
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Disturbing Imagery, Violence, etc.
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            I wish to report questionable pharmacy content on a website
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            I have come across content that displays personal information such as a social security
+                            number or credit card number
+                        </label>
+                    </div>
+                    <button class="getstr">Get Started</button>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Malware
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+                    <!-- form-02  -->
+
+                    <div class="form-check">
+                        <h6>Please select the option that best describes what you would like to report.</h6>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+
+                            I received a computer virus or other malware and wish to report it
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            I wish to report a site that promotes, encourages or engages in computer or network hacking
+                            or cracking
+                        </label>
+                    </div>
+                    <button class="getstr">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Phishing
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+                    <!-- Form-03  -->
+
+                    <div class="form-check">
+                        <h6>Please select the option that best describes what you would like to report. If you are unsure of what selection you should make, please review our <a href="#">What is Phishing</a> help article before proceeding.</h6>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+
+                            I have received an email requesting personal information
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            I wish to report a website that is posing as another website
+                        </label>
+                    </div>
+                    <button class="getstr">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Spam
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+                    <!-- Form-04  -->
+
+                    <div class="form-check">
+                        <h6>Please select the option that best describes what you would like to report. If you are unsure of what selection you should make, please review our <a href="#">What is Spam</a> help article before proceeding.</h6>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+
+                            I received unsolicited email
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            I received an unsolicited text or SMS message
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            I wish to report unsolicited comments on a forum, blog or in an instant message
+                        </label>
+                    </div>
+                    <button class="getstr">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Other
+                </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+                    <!-- Others- Dropdown list  -->
+
+                     <h6> Please select the option that best describes what you would like to report. </h6>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Copyright/Trademark Infringement</div>
+                           <div class="grey"> Someone copied your content</div>
+                            <div class="text">To review our Trademark Policy policy and access a form for submitting a complaint concerning Copyright/Trademark Infringement, please click 
+                         <a href="#">here</a> </div>
+                          </div>
+                          <!-- <span class="badge bg-primary rounded-pill">14</span> -->
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Abuse/Harassment</div>
+                            <div class="grey">Report slander, libel, defamation, etc.</div>
+                            <div class="text">Artbeat does not allow illegal content on our customer's websites. However, as a hosting provider, it is not our place to determine if the site you have mentioned is actually engaging in illegal activities. If you suspect any of our customers are using their website to engage in any illegal activities, please help us by contacting your local law enforcement agency, and request them to investigate this situation. Please refer to our Universal Terms of Service Agreement for specifics on our policies. </div>
+                          </div>
+                          <!-- <span class="badge bg-primary rounded-pill">14</span> -->
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Email Bounces</div>
+                           <div class="grey"> You are receiving bounces for emails you did not send</div>
+                            <div class="text">Spammers often use a random address in their spam list as the "from" address to disguise the true source. If you are experiencing these types of email bounces, please refer to the article,<a href="#">Why am I getting bouncebacks for messages I did not send?</a> </div>
+                          </div>
+                         
+                          <!-- <span class="badge bg-primary rounded-pill">14</span> -->
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Domain Isuues/Questions</div>
+                            <div class="grey"> You are receiving bounces for emails you did not send</div>
+                            <div class="text">Please contact <a href="#">Customer Support</a>  for help directing you to the right place.</div>
+                          </div>
+                          <!-- <span class="badge bg-primary rounded-pill">14</span> -->
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Invalid WHOIS</div>
+                           <div class="grey"> Report Fake or Incorrect Registrant Information</div>
+                            <div class="text">If you suspect a domain has been registered with fake information, please complete the form located at <a href="#"> https://www.godaddy.com/whois</a> by searching for the domain, and then clicking the link "Report Invalid Whois".</div>
+                          </div>
+                          <!-- <span class="badge bg-primary rounded-pill">14</span> -->
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Disclosure Requests</div>
+                          <div class="grey">Request Registrant Information</div>  
+                            <div class="text">Info displayed in public WHOIS is limited for privacy reasons. You can learn more about access to non-public domain contact information <a href="#">here</a></div>
+                          </div>
+                          <!-- <span class="badge bg-primary rounded-pill">14</span> -->
+                        </li>
+                      </ol>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+    <div class="bottomtext">
+        <p> GoDaddy has been fighting phishing, botnet, malware, and other forms of abuse for more than 20 years and we have robust procedures and tools in place to help prevent and mitigate such attacks. Specifically, our team utilizes advanced technologies and collaborates with security companies and independent experts, law enforcement and other government agencies, and industry working groups to combat this type of abuse. Our <a href="#">Universal Terms of Service</a> precludes customers from using our services for phishing, malware and related abuse and gives us broad discretion for taking action. </p>
+    </div>
+
+
+
+
+</body>
+
+</html>
